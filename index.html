@@ -3,9 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Calculatrice</title>
+    <meta name="author" content="Eline Schmitz">
+    <meta name="keywords" content="calculatrice, javascript, js, événements">
+    <meta name="description" content="Une calculatrice pour s’entraîner avec les événements en JavaScript">
+    <title>Une calculatrice avec JavaScript</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/script.js"></script>
 </head>
 <body>
-
+<main>
+    <h1>Une calculatrice avec JavaScript</h1>
+    <section id="calculatrice" class="calculatrice">
+        <section id="resultat" class="resultat"></section>
+        <section id="boutons" class="boutons">
+            <button class="operateur" data-operateur="+">+</button>
+            <button class="operateur" data-operateur="-">-</button>
+            <button class="operateur" data-operateur="*">x</button>
+            <button class="operateur" data-operateur="/">÷</button>
+            <button class="chiffre" data-chiffre="7">7</button>
+            <button class="chiffre" data-chiffre="8">8</button>
+            <button class="chiffre" data-chiffre="9">9</button>
+            <button class="egal" data-valeur="=" id="egal">=</button>
+            <button class="chiffre" data-chiffre="4">4</button>
+            <button class="chiffre" data-chiffre="5">5</button>
+            <button class="chiffre" data-chiffre="6">6</button>
+            <button class="chiffre" data-chiffre="1">1</button>
+            <button class="chiffre" data-chiffre="2">2</button>
+            <button class="chiffre" data-chiffre="3">3</button>
+            <button class="chiffre" data-chiffre="0">0</button>
+            <button class="point" data-valeur="." id="point">.</button>
+            <button class="action" data-action="clear" id="clear">C</button>
+            <button class="action" data-action="delete" id="delete">⌫</button>
+        </section>
+    </section>
+</main>
 </body>
 </html>
