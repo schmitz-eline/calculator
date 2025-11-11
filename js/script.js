@@ -60,7 +60,7 @@ pointButtonElement.addEventListener('click', () => {
 
 clearButtonElement.addEventListener('click', () => {
     currentOperation = '';
-    resultatSectionElement.textContent = '';
+    resultatSectionElement.textContent = '0';
 });
 
 deleteButtonElement.addEventListener('click', () => {
